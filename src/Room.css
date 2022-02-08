@@ -1,4 +1,21 @@
 .Room {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 1rem;
   border: 1px solid black;
+}
+
+.Room__status {
+  border-radius: 50%;
+  height: 1.2rem;
+  width: 1.2rem;
+  background: lightgrey;
+}
+
+.Room__status--clean {
+  background: green;
+}
+.Room__status--dirty {
+  background: palevioletred;
 }
