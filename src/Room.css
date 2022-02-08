@@ -1,9 +1,12 @@
 .Room {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 1rem;
   border: 1px solid black;
+}
+
+.Room__header {
+  display: flex;
+  justify-content: space-between;
 }
 
 .Room__status {
