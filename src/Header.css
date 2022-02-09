@@ -1,8 +1,4 @@
 .Header {
   padding: 1.5rem;
-  background: linear-gradient(
-    90deg,
-    rgba(38, 33, 139, 1) 0%,
-    rgba(142, 184, 193, 1) 100%
-  );
+  background: lightgrey;
 }

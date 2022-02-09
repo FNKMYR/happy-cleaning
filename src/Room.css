@@ -7,6 +7,7 @@
 .Room__header {
   display: flex;
   justify-content: space-between;
+  font-weight: bold;
 }
 
 .Room__status {
@@ -20,5 +21,5 @@
   background: green;
 }
 .Room__status--dirty {
-  background: palevioletred;
+  background: rgb(189, 41, 65);
 }
