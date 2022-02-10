@@ -1,0 +1,22 @@
+.Navigation {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.Navigation__button {
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: rgb(56, 50, 50);
+}
+
+.Navigation__button--active {
+  background-color: rgb(213, 223, 213);
+  font-weight: bolder;
+}
+
+.Navigation__button--inactive {
+  background-color: rgb(233, 185, 185);
+}
