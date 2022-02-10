@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './Room.css';
 
 export default function Room({ text, descriptionText, isClean, toggleStatus }) {
-  const [isDescriptionVisible, setIsDescriptionVisible] = useState();
+  const [isDescriptionVisible, setIsDescriptionVisible] = useState(false);
 
   const statusClassName = `Room__status Room__status--${
     isClean ? 'clean' : 'dirty'
